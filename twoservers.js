@@ -14,3 +14,6 @@ var server2=http.createServer(handleRequest2);
 server.listen(PORT, function(){
   console.log("server listening on: http://localhost:"+PORT);
 });
+server2.listen(PORT, function(){
+  console.log("server listening on: http://localhost:"+PORT);
+});
